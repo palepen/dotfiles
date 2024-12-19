@@ -1,0 +1,29 @@
+
+[general]
+import = [
+  "/usr/local/lib/node_modules/alacritty-themes/themes/catppuccin-mocha.toml"
+]
+
+[env]
+WINIT_X11_SCALE_FACTOR = "1.0"
+TERM = "xterm-256color"
+
+[window]
+decorations = "None"
+opacity = 0.9
+startup_mode = "Maximized"
+
+[window.padding]
+x = 11
+y = 11
+
+[font]
+size=12
+
+[font.normal]
+family = "FiraCode Nerd Font"
+style = "Regular"
+
+
+[selection]
+save_to_clipboard = true
